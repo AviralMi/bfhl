@@ -4,7 +4,7 @@ const app = express();
 
 
 app.use(express.json());
-app.use(corse());
+app.use(cors());
 
 app.route("/bfhl")
   .get((req, res) => {
